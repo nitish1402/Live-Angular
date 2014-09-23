@@ -7,7 +7,6 @@
 -- Started on 2014-08-18 14:31:55
 
 SET statement_timeout = 0;
-SET lock_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SET check_function_bodies = false;
@@ -101,64 +100,7 @@ CREATE TABLE teaches (
 
 ALTER TABLE public.teaches OWNER TO postgres;
 
---
--- TOC entry 1961 (class 0 OID 41270)
--- Dependencies: 170
--- Data for Name: course; Type: TABLE DATA; Schema: public; Owner: postgres
---
 
-COPY course (cid, cname) FROM stdin;
-CS203	Database Design
-IT101	Introduction to Computer Programming
-\.
-
-
---
--- TOC entry 1964 (class 0 OID 41294)
--- Dependencies: 173
--- Data for Name: enrollment; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY enrollment (sid, cid) FROM stdin;
-101	CS203
-101	IT101
-102	CS203
-102	IT101
-\.
-
-
---
--- TOC entry 1962 (class 0 OID 41278)
--- Dependencies: 171
--- Data for Name: student; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY student (sid, sname) FROM stdin;
-101	Alice
-102	Bob
-\.
---
--- TOC entry 1963 (class 0 OID 41286)
--- Dependencies: 172
--- Data for Name: teacher; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY teacher (tid, tname) FROM stdin;
-KVS	Sankar
-Brian	Brian Ford
-\.
-
-
---
--- TOC entry 1965 (class 0 OID 41309)
--- Dependencies: 174
--- Data for Name: teaches; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY teaches (cid, tid) FROM stdin;
-IT101	KVS
-CS203	Brian
-\.
 
 
 --
