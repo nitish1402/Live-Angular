@@ -1,0 +1,63 @@
+<div class="jumbotron">
+  <form role="form-horizontal" class="container-fluid">
+
+  <fieldset>
+  <legend>
+    Teacher Details
+  </legend>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">TeacherId</p></dt>
+          <dd>
+          <p class="text-success">{{teacher[0].tid}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">Teacher Name</p></dt>
+          <dd>
+            <p class="text-success">  {{teacher[0].tname}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+          <div class="panel panel-primary" width="200px">
+            <div class="panel-heading">
+            EnrollMent Details
+            </div>
+
+
+                <table class="table" >
+                  <tr><th class="text-danger">CourseId</th><th  class="text-danger">CourseName</th></tr>
+                  <tr ng-repeat="data in teacher"><td class="text-info">{{data.cid}}</td><td class="text-success">{{data.cname}}</td></tr>
+                </table>
+
+              </div>
+       </div>
+     </div>
+   </section>
+
+
+</fieldset>
+</form>
+
+</div>

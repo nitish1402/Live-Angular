@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="leaderboard">
+    <p>There are {{products.length}} Products</p>
+    <div>
+      Enter For Search Here<input type="text" ng-model="toSearch" placeholder ="enter text here"/>
+    </div>
+    <div  bindonce data-ng-repeat="product in products |filter:toSearch ">
+      <section>
+        <div>
+          <h3>ID:<span bo-text="product.pid"></span></h3>
+          <blockquote>
+            <p class="text-primary lead"><span bo-text="product.name"></span></p>
+            <p class="text-info"><span bo-text="product.descr"></span></p>
+
+            <a ng-href="products/{{product.pid}}">	<button class="btn btn-info">More</button></a>
+            <a ng-href="products/{{product.pid}}/edit"><button class="btn btn-primary">Edit</button></a>
+            <a ng-href="products/{{product.pid}}/delete"><button class="btn btn-danger">Delete</button></a>
+          </blockquote>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+

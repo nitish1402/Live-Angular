@@ -1,0 +1,3221 @@
+
+nbhagat@LP-NBHAGAT ~
+$ bash
+
+nbhagat@LP-NBHAGAT ~
+$ WHICH bash
+/usr/bin/bash
+
+nbhagat@LP-NBHAGAT ~
+$ cd /usr/bin/
+
+nbhagat@LP-NBHAGAT /usr/bin
+$ ls
+[.exe             config_data               cygticw-10.dll             gprof.exe                      lookbib.exe       pstruct            tar.exe
+2to3              corelist                  cyguuid-1.dll              grap2graph                     ls.exe            ptar               tbl.exe
+2to3-3.2          cp.exe                    cygwin1.dll                grep.exe                       lynx.exe          ptardiff           tclsh
+a2p.exe           cpan                      cygwin-console-helper.exe  grn.exe                        lzcat             ptargrep           tclsh8.5.exe
+aclocal           cpan2dist                 cygwrap-0.dll              grodvi.exe                     lzcmp             ptx.exe            tee.exe
+aclocal-1.10      cpanp                     cygX11-6.dll               groff.exe                      lzdiff            pwd.exe            test.exe
+aclocal-1.11      cpanp-run-perl            cygXau-6.dll               grolbp.exe                     lzegrep           pydoc              texi2any
+aclocal-1.12      cpp.exe                   cygxcb-1.dll               grolj4.exe                     lzfgrep           pydoc3             texi2dvi
+aclocal-1.13      csplit.exe                cygXdmcp-6.dll             grops.exe                      lzgrep            pydoc3.2           texi2pdf
+aclocal-1.14      curl.exe                  cygXext-6.dll              grotty.exe                     lzless            pygettext.py       texindex.exe
+aclocal-1.4       cut.exe                   cygXft-2.dll               groups.exe                     lzma              python             tfmtodit.exe
+aclocal-1.5       cvs.exe                   cygXrender-1.dll           gunzip                         lzmadec.exe       python2            timeout.exe
+aclocal-1.6       cvsbug                    cygXss-1.dll               gzexe                          lzmainfo.exe      python2.7.exe      touch.exe
+aclocal-1.7       cvsps.exe                 cygz.dll                   gzip.exe                       lzmore            python2.7-config   tr.exe
+aclocal-1.8       cygargp-0.dll             dash.exe                   h2ph                           m4.exe            python2-config     troff.exe
+aclocal-1.9       cygasprintf-0.dll         date.exe                   h2xs                           make.exe          python3            true.exe
+addftinfo.exe     cygatomic-1.dll           dbilogstrip                head.exe                       makeinfo          python3.2          truncate.exe
+addr2line.exe     cygattr-1.dll             dbiprof                    hexdump.exe                    man.exe           python3.2m.exe     trust.exe
+apropos           cygblkid-1.dll            dbiproxy                   hostid.exe                     mandb.exe         python3.2m-config  tsort.exe
+ar.exe            cygbz2-1.dll              dd.exe                     hostname.exe                   manpath.exe       python3-config     tty.exe
+arch.exe          cygcheck.exe              df.exe                     hpftodit.exe                   mcookie.exe       python-config      tzset.exe
+as.exe            cygcloog-isl-4.dll        diff.exe                   htmlize                        md5sum.exe        ranlib.exe         ul.exe
+ash.exe           cygcom_err-2.dll          diff3.exe                  i686-pc-cygwin-addr2line.exe   minidumper.exe    rcs2log            umount.exe
+autobuild         cygcrypt-0.dll            dir.exe                    i686-pc-cygwin-ar.exe          mintty.exe        readelf.exe        uname.exe
+autoconf          cygcrypto-1.0.0.dll       dircolors.exe              i686-pc-cygwin-as.exe          mkdir.exe         readlink.exe       uncompress
+autoconf-2.13     cygcurl-4.dll             dirname.exe                i686-pc-cygwin-c++filt.exe     mkfifo.exe        readshortcut.exe   unexpand.exe
+autoconf-2.69     cygdb_cxx-5.3.dll         dlltool.exe                i686-pc-cygwin-cpp.exe         mkgroup.exe       realpath.exe       uniq.exe
+autoheader        cygdb_sql-5.3.dll         dllwrap.exe                i686-pc-cygwin-dlltool.exe     mknod.exe         rebase.exe         unlink.exe
+autoheader-2.13   cygdb-5.3.dll             dnsdomainname              i686-pc-cygwin-dllwrap.exe     mkpasswd.exe      rebaseall          unlzma
+autoheader-2.69   cygedit-0.dll             domainname                 i686-pc-cygwin-elfedit.exe     mkshortcut.exe    refer.exe          unxz
+autom4te          cygexpat-1.dll            dprofpp                    i686-pc-cygwin-gcc.exe         mktemp.exe        regtool.exe        update-ca-trust
+autom4te-2.69     cygffi-6.dll              du.exe                     i686-pc-cygwin-gcc-4.8.3.exe   more.exe          rename.exe         updatedb
+automake          cygfontconfig-1.dll       dumper.exe                 i686-pc-cygwin-gcc-ar.exe      mount.exe         renice.exe         users.exe
+automake-1.10     cygformw-10.dll           echo.exe                   i686-pc-cygwin-gcc-nm.exe      msgfmt.py         rev.exe            uuidgen.exe
+automake-1.11     cygfreetype-6.dll         editrights.exe             i686-pc-cygwin-gcc-ranlib.exe  mv.exe            rm.exe             vdir.exe
+automake-1.12     cyggcc_s-seh-1.dll        egrep.exe                  i686-pc-cygwin-gcov.exe        namei.exe         rmdir.exe          vi.exe
+automake-1.13     cyggdbm_compat-4.dll      elfedit.exe                i686-pc-cygwin-gprof.exe       neqn              rsync.exe          view
+automake-1.14     cyggdbm-4.dll             enc2xs                     i686-pc-cygwin-ld.bfd.exe      ngettext.exe      run.exe            vim.exe
+automake-1.4      cyggmp-10.dll             env.exe                    i686-pc-cygwin-ld.exe          nice.exe          runcon.exe         vimdiff
+automake-1.5      cyggnutls-28.dll          envsubst.exe               i686-pc-cygwin-nm.exe          nl.exe            rvi                vimtutor
+automake-1.6      cyggnutls-openssl-27.dll  eqn.exe                    i686-pc-cygwin-objcopy.exe     nm.exe            rview              wc.exe
+automake-1.7      cyggnutls-xssl-0.dll      eqn2graph                  i686-pc-cygwin-objdump.exe     nohup.exe         rvim               wget.exe
+automake-1.8      cyggnutlsxx-28.dll        ex                         i686-pc-cygwin-ranlib.exe      nproc.exe         s2p                whatis.exe
+automake-1.9      cyggomp-1.dll             expand.exe                 i686-pc-cygwin-readelf.exe     nroff             scp.exe            whereis.exe
+autoreconf        cyggssapi_krb5-2.dll      expr.exe                   i686-pc-cygwin-size.exe        objcopy.exe       script.exe         which.exe
+autoreconf-2.13   cyghistory7.dll           factor.exe                 i686-pc-cygwin-strings.exe     objdump.exe       scriptreplay.exe   who.exe
+autoreconf-2.69   cyghogweed-2.dll          false.exe                  i686-pc-cygwin-strip.exe       od.exe            sdiff.exe          whoami.exe
+autoscan          cygiconv-2.dll            fgrep.exe                  i686-pc-cygwin-windmc.exe      oldfind.exe       sed.exe            windmc.exe
+autoscan-2.13     cygidn-11.dll             file.exe                   i686-pc-cygwin-windres.exe     openssl.exe       seq.exe            windres.exe
+autoscan-2.69     cygintl-8.dll             find.exe                   id.exe                         p11-kit.exe       setfacl.exe        wish
+autoupdate        cygisl-10.dll             find2perl                  ifnames                        passwd.exe        setmetamode.exe    wish8.5.exe
+autoupdate-2.13   cygk5crypto-3.dll         flock.exe                  ifnames-2.13                   paste.exe         setsid.exe         x86_64-pc-cygwin-c++.exe
+autoupdate-2.69   cygkrb5-3.dll             fmt.exe                    ifnames-2.69                   pathchk.exe       sftp.exe           x86_64-pc-cygwin-g++.exe
+awk               cygkrb5support-0.dll      fold.exe                   igawk                          pdfroff           sh.exe             x86_64-pc-cygwin-gcc.exe
+base64.exe        cyglber-2-4-2.dll         g++.exe                    indxbib.exe                    pdftexi2dvi       sha1sum.exe        x86_64-pc-cygwin-gcc-4.8.3.exe
+basename.exe      cygldap_r-2-4-2.dll       gawk.exe                   info.exe                       peflags.exe       sha224sum.exe      x86_64-pc-cygwin-gcc-ar.exe
+bash.exe          cygldap-2-4-2.dll         gawk-4.1.1.exe             infokey.exe                    peflagsall        sha256sum.exe      x86_64-pc-cygwin-gcc-nm.exe
+bashbug           cyglsa64.dll              gcc.exe                    install.exe                    perl.exe          sha384sum.exe      x86_64-pc-cygwin-gcc-ranlib.exe
+bunzip2.exe       cyglsa-config             gcc-ar.exe                 install-info.exe               perl5.14.4.exe    sha512sum.exe      xargs.exe
+bzcat.exe         cyglzma-5.dll             gcc-nm.exe                 install-info.exe.manifest      perlbug           shasum             xsubpp
+bzcmp             cygmagic-1.dll            gcc-ranlib.exe             instmodsh                      perldoc           shred.exe          xxd.exe
+bzdiff            cygman-2-6-7.dll          gcov.exe                   ipcmk.exe                      perlivp           shuf.exe           xz.exe
+bzegrep           cygmenuw-10.dll           gdb.exe                    ipcrm.exe                      perlthanks        size.exe           xzcat
+bzfgrep           cygmetalink-3.dll         gdiffmk                    ipcs.exe                       pfbtops.exe       sleep.exe          xzcmp
+bzgrep            cygmpc-3.dll              getconf.exe                isosize.exe                    pg.exe            slogin             xzdec.exe
+bzip2.exe         cygmpfr-4.dll             getent.exe                 join.exe                       pic.exe           smtpd.py           xzdiff
+bzip2recover.exe  cygncurses++w-10.dll      getfacl.exe                json_pp                        pic2graph         soelim.exe         xzegrep
+bzless            cygncursesw-10.dll        getopt.exe                 kill.exe                       piconv            sort.exe           xzfgrep
+bzmore            cygnettle-4.dll           gettext.exe                ld.exe                         ping.exe          splain             xzgrep
+c_rehash          cygp11-kit-0.dll          gettext.sh                 ldd.exe                        pinky.exe         split.exe          xzless
+c++.exe           cygpanelw-10.dll          git.exe                    ldh.exe                        pl2pm             ssh.exe            xzmore
+c++filt.exe       cygpath.exe               git-cvsserver              less.exe                       pldd.exe          ssh-add.exe        yes.exe
+c2ph              cygpcre-1.dll             git-receive-pack.exe       lessecho.exe                   pod2html          ssh-agent.exe      zcat
+cal.exe           cygperl5_14.dll           git-shell.exe              lesskey.exe                    pod2latex         ssh-copy-id        zcmp
+cat.exe           cygpipeline-1.dll         git-upload-archive.exe     lexgrog.exe                    pod2man           ssh-host-config    zdiff
+catman.exe        cygpng15-15.dll           git-upload-pack.exe        libnetcfg                      pod2texi          ssh-keygen.exe     zegrep
+cc                cygpopt-0.dll             gkill.exe                  libpython2.7.dll               pod2text          ssh-keyscan.exe    zfgrep
+chcon.exe         cygquadmath-0.dll         gnat.exe                   libpython3.2m.dll              pod2usage         ssh-user-config    zforce
+chgrp.exe         cygreadline7.dll          gnatbind.exe               libtcl8.5.dll                  podchecker        ssp.exe            zgrep
+chmod.exe         cygrunsrv.exe             gnatchop.exe               libtk8.5.dll                   podselect         stat.exe           zless
+chown.exe         cygsasl2-3.dll            gnatclean.exe              link.exe                       post-grohtml.exe  strace.exe         zmore
+chroot.exe        cygserver-config          gnatfind.exe               lkbib.exe                      pr.exe            strings.exe        znew
+cksum.exe         cygsqlite3-0.dll          gnatkr.exe                 ln.exe                         preconv.exe       strip.exe          zsoelim.exe
+cmp.exe           cygssh2-1.dll             gnatlink.exe               locale.exe                     pre-grohtml.exe   stty.exe
+col.exe           cygssl-1.0.0.dll          gnatls.exe                 locate.exe                     printenv.exe      sum.exe
+colcrt.exe        cygssp-0.dll              gnatmake.exe               logger.exe                     printf.exe        sync.exe
+colrm.exe         cygstart.exe              gnatname.exe               login.exe                      prove             tac.exe
+column.exe        cygstdc++-6.dll           gnatprep.exe               logname.exe                    ps.exe            tail.exe
+comm.exe          cygtasn1-6.dll            gnatxref.exe               look.exe                       psed              tailf.exe
+
+nbhagat@LP-NBHAGAT /usr/bin
+$ cd /
+
+nbhagat@LP-NBHAGAT /
+$ ls
+bin  cygdrive  Cygwin.bat  Cygwin.ico  Cygwin-Terminal.ico  dev  etc  home  lib  proc  tmp  usr  var
+
+nbhagat@LP-NBHAGAT /
+$ cd /home/
+
+nbhagat@LP-NBHAGAT /home
+$ ls
+nbhagat
+
+nbhagat@LP-NBHAGAT /home
+$ cd nbhagat/
+
+nbhagat@LP-NBHAGAT ~
+$ ls
+a.c  index.html  node  node-v0.4.12  node-v0.4.12.tar.gz  WAITCONN
+
+nbhagat@LP-NBHAGAT ~
+$ clear
+bash: clear: command not found
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -x GET http://localhost:3000/
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET / HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4469
+< ETag: W/"1175-903825989"
+< Date: Wed, 13 Aug 2014 08:57:46 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/student/123
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/student/123 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:21:48 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/courses
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/courses HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 358
+< ETag: W/"166-2421955571"
+< Date: Wed, 13 Aug 2014 11:34:08 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"coursearr":[{"cid":"CS203","cname":"Database Design and Organisation"},{"cid":"CS204","cname":"Operating System"},{"cid":"CS306","cname":"Mach                                    ine Learning"},{"cid":"CS308","cname":"Data Structure and Algorithms"},{"cid":"CS401","cname":"Javascript and Web Fundamentals"},{"cid":"CS402",                                    "cname":"Angular JS"},{"cid":"IT101","cname":"Parallel Programming"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/coursesjkhjkh
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/coursesjkhjkh HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4471
+< ETag: W/"1177-4067109666"
+< Date: Wed, 13 Aug 2014 11:34:13 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/courses/CS!!!
+curl -v -X GET http://localhost:3000/services/courses/CScurl -v -X GET http://localhost:3000/services/coursesjkhjkh!
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/courses/CScurl HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4471
+< ETag: W/"1177-4067109666"
+< Date: Wed, 13 Aug 2014 11:34:43 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Found bundle for host localhost: 0x60006aca0
+* Re-using existing connection! (#0) with host localhost
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: CONNECT => DO handle 0x60002e140; line 1069 (connection #0)
+> GET /services/coursesjkhjkh! HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4471
+< ETag: W/"1177-4067109666"
+< Date: Wed, 13 Aug 2014 11:34:43 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/courses/CS!!!
+curl -v -X GET http://localhost:3000/services/courses/CScurl -v -X GET http://localhost:3000/services/courses/CScurl -v -X GET http://localhost:                                    3000/services/coursesjkhjkh!!
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/courses/CScurl HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4471
+< ETag: W/"1177-4067109666"
+< Date: Wed, 13 Aug 2014 11:34:54 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Found bundle for host localhost: 0x60006ad00
+* Re-using existing connection! (#0) with host localhost
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: CONNECT => DO handle 0x60002e140; line 1069 (connection #0)
+> GET /services/courses/CScurl HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4471
+< ETag: W/"1177-4067109666"
+< Date: Wed, 13 Aug 2014 11:34:54 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Found bundle for host localhost: 0x60006ad00
+* Re-using existing connection! (#0) with host localhost
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: CONNECT => DO handle 0x60002e140; line 1069 (connection #0)
+> GET /services/coursesjkhjkh!! HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4471
+< ETag: W/"1177-4067109666"
+< Date: Wed, 13 Aug 2014 11:34:54 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+
+nbhagat@LP-NBHAGAT ~
+$
+
+nbhagat@LP-NBHAGAT ~
+$
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/course/CS203
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/course/CS203 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 73
+< ETag: W/"49-1189890890"
+< Date: Wed, 13 Aug 2014 11:35:17 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"courseinfo":{"cid":"CS203","cname":"Database Design and Organisation"}}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/course/CS2033
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/course/CS2033 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:35:21 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/course/CS111
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/course/CS111 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:35:27 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/course/CS!!!
+curl -v -X GET http://localhost:3000/services/course/CScurl -v -X GET http://localhost:3000/services/course/CS111!
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/course/CScurl HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:35:32 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Found bundle for host localhost: 0x60006aca0
+* Re-using existing connection! (#0) with host localhost
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: CONNECT => DO handle 0x60002e140; line 1069 (connection #0)
+> GET /services/course/CS111! HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:35:32 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/courseaaa
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/courseaaa HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4471
+< ETag: W/"1177-4067109666"
+< Date: Wed, 13 Aug 2014 11:35:39 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/course/CS111
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/course/CS111 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:35:44 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/newCourse -H
+curl: option -H: requires parameter
+curl: try 'curl --help' or 'curl --manual' for more information
+
+nbhagat@LP-NBHAGAT ~
+$ "Content-Type: application/json" -d  '{"cid":"CS212", "cname":"Computer Networks"}'
+bash: Content-Type: application/json: No such file or directory
+
+$ curl -v -X POST http://localhost:3000/services/newCourse -H "Content-Type: application/json" -d  '{"cid":"CS212", "cname":"Computer Networks"}'                                   bash: $'\302\226\302\226curl': command not found
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/newCourse -H "Content-Type: application/json" -d  '{"cid":"CS212", "cname":"Computer Networks"}'
+bash: $'\302\226\302\226curl': command not found
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/newCourse -H "Content-Type: application/json" -d  '{"cid":"CS212", "cname":"Computer Networks"}'
+bash: $'\302\226\302\226curl': command not found
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/newCourse
+bash: $'\302\226\302\226curl': command not found
+
+nbhagat@LP-NBHAGAT ~
+$ curl
+curl: try 'curl --help' or 'curl --manual' for more information
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/course/CS111
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/course/CS111 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:38:09 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/newCourse
+bash: $'\302\226\302\226curl': command not found
+
+nbhagat@LP-NBHAGAT ~
+$ curl -X POST http://localhost:3000/services/newCours
+bash: $'\302\226\302\226curl': command not found
+
+nbhagat@LP-NBHAGAT ~
+curl -v  -X POST http://localhost:3000/services/newCours
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/newCours HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 31
+< Date: Wed, 13 Aug 2014 11:38:50 GMT
+< Connection: keep-alive
+<
+Cannot POST /services/newCours
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v  -X POST http://localhost:3000/services/newCours
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/newCours HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 31
+< Date: Wed, 13 Aug 2014 11:39:00 GMT
+< Connection: keep-alive
+<
+Cannot POST /services/newCours
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/newCourse -H "Content-Type: application/json" -d  '{"cid":"CS212", "cname":"Computer Networks"}'
+bash: $'\302\226\302\226curl': command not found
+
+nbhagat@LP-NBHAGAT ~
+curl -v -X POST http://localhost:3000/services/newCourse -H "Content-Type: application/json" -d  '{"cid":"CS212", "cname":"Computer Networks"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/newCourse HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 44
+>
+* upload completely sent off: 44 out of 44 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 11:39:18 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X PUT http://localhost:3000/services/course/CS212 -H "Content-Type: application/json" -d '{"cname":"Complex Networks"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> PUT /services/course/CS212 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 28
+>
+* upload completely sent off: 28 out of 28 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 11:40:12 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X PUT http://localhost:3000/services/course/CS111 -H "Content-Type: application/json" -d '{"cname":"Complex Networks"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> PUT /services/course/CS111 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 28
+>
+* upload completely sent off: 28 out of 28 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:40:30 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X PUT http://localhost:3000/services/course/CS111 -H "Content-Type: application/json" -d '{"cname":"Complex Networks"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> PUT /services/course/CS111 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 28
+>
+* upload completely sent off: 28 out of 28 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:42:04 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X DELETE http://localhost:3000/services/course/CS212
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> DELETE /services/course/CS212 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 37
+< Date: Wed, 13 Aug 2014 11:42:08 GMT
+< Connection: keep-alive
+<
+Cannot DELETE /services/course/CS212
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X DELETE http://localhost:3000/services/course/CS212/edit/CS212
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> DELETE /services/course/CS212/edit/CS212 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 11:42:50 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X DELETE http://localhost:3000/services/course/CS212/edit/CS212
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> DELETE /services/course/CS212/edit/CS212 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:43:09 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X DELETE http://localhost:3000/services/course/CS212/edit/CS212
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> DELETE /services/course/CS212/edit/CS212 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 11:43:11 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/students
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/students HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 184
+< ETag: W/"b8-3264412296"
+< Date: Wed, 13 Aug 2014 11:57:23 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"studentarr":[{"sid":100,"sname":"Bob"},{"sid":102,"sname":"Jake"},{"sid":103,"sname":"Alan"},{"sid":104,"sname":"Nitish"},{"sid":105,"sname":"Charlie"},{"sid":111,"sname":"Judith"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/student/alan
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/student/alan HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/student/100
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/student/100 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 41
+< ETag: W/"29-4094032648"
+< Date: Wed, 13 Aug 2014 11:58:04 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"studentinfo":{"sid":100,"sname":"Bob"}}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/newStudent -H "Content-Type: application/json" -d  '{"sid":"106", "sname":"Claire"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/newStudent HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 31
+>
+* upload completely sent off: 31 out of 31 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 11:58:35 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X PUT http://localhost:3000/services/student/106 -H "Content-Type: application/json" -d '{"cname":"Sarah "}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> PUT /services/student/106 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 18
+>
+* upload completely sent off: 18 out of 18 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X PUT http://localhost:3000/services/student/106 -H "Content-Type: application/json" -d '{"sname":"Sarah "}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> PUT /services/student/106 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 18
+>
+* upload completely sent off: 18 out of 18 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 11:59:53 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X PUT http://localhost:3000/services/student/108 -H "Content-Type: application/json" -d '{"sname":"Sarah "}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> PUT /services/student/108 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 18
+>
+* upload completely sent off: 18 out of 18 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 12:00:05 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/student/enroll/106
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/student/enroll/106 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 359
+< ETag: W/"167-178382688"
+< Date: Wed, 13 Aug 2014 12:00:28 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"courseList":[{"cid":"CS306","cname":"Machine Learning"},{"cid":"CS204","cname":"Operating System"},{"cid":"CS308","cname":"Data Structure and Algorithms"},{"cid":"CS401","cname":"Javascript and Web Fundamentals"},{"cid":"CS402","cname":"Angular JS"},{"cid":"CS203","cname":"Database Design and Organisation"},{"cid":"IT101","cname":"Parallel Programming"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/student/enroll/108
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/student/enroll/108 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 359
+< ETag: W/"167-178382688"
+< Date: Wed, 13 Aug 2014 12:00:42 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"courseList":[{"cid":"CS306","cname":"Machine Learning"},{"cid":"CS204","cname":"Operating System"},{"cid":"CS308","cname":"Data Structure and Algorithms"},{"cid":"CS401","cname":"Javascript and Web Fundamentals"},{"cid":"CS402","cname":"Angular JS"},{"cid":"CS203","cname":"Database Design and Organisation"},{"cid":"IT101","cname":"Parallel Programming"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/student/enroll/108
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/student/enroll/108 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 359
+< ETag: W/"167-178382688"
+< Date: Wed, 13 Aug 2014 12:03:25 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"courseList":[{"cid":"CS306","cname":"Machine Learning"},{"cid":"CS204","cname":"Operating System"},{"cid":"CS308","cname":"Data Structure and Algorithms"},{"cid":"CS401","cname":"Javascript and Web Fundamentals"},{"cid":"CS402","cname":"Angular JS"},{"cid":"CS203","cname":"Database Design and Organisation"},{"cid":"IT101","cname":"Parallel Programming"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":"106","courses":"["CS203","CS402"]"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/student/studentEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 43
+>
+* upload completely sent off: 43 out of 43 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 400 Bad Request
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 598
+< Date: Wed, 13 Aug 2014 12:03:30 GMT
+< Connection: keep-alive
+<
+SyntaxError: Unexpected token C<br> &nbsp; &nbsp;at Object.parse (native)<br> &nbsp; &nbsp;at parse (Z:\University\node_modules\body-parser\lib\types\json.js:64:17)<br> &nbsp; &nbsp;at Z:\University\node_modules\body-parser\lib\read.js:96:18<br> &nbsp; &nbsp;at IncomingMessage.onEnd (Z:\University\node_modules\body-parser\node_modules\raw-body\index.js:136:7)<br> &nbsp; &nbsp;at IncomingMessage.g (events.js:180:16)<br> &nbsp; &nbsp;at IncomingMessage.EventEmitter.emit (events.js:117:20)<br> &nbsp; &nbsp;at _stream_readable.js:919:16<br> &nbsp; &nbsp;at process._tickCallback (node.js:419:13)
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":106,"courses":["IT101",                                    "CS203"]}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/student/studentEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 39
+>
+* upload completely sent off: 39 out of 39 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:09:23 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":106,"courses":"["IT101","CS203"]"}'                        * STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/student/studentEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 41
+>
+* upload completely sent off: 41 out of 41 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 400 Bad Request
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 598
+< Date: Wed, 13 Aug 2014 12:11:15 GMT
+< Connection: keep-alive
+<
+SyntaxError: Unexpected token I<br> &nbsp; &nbsp;at Object.parse (native)<br> &nbsp; &nbsp;at parse (Z:\University\node_modules\body-parser\lib\types\json.js:64:17)<br> &nbsp; &nbsp;at Z:\University\node_modules\body-parser\lib\read.js:96:18<br> &nbsp; &nbsp;at IncomingMessage.onEnd (Z:\University\node_modules\body-parser\node_modules\raw-body\index.js:136:7)<br> &nbsp; &nbsp;at IncomingMessage.g (events.js:180:16)<br> &nbsp; &nbsp;at IncomingMessage.EventEmitter.emit (events.js:117:20)<br> &nbsp; &nbsp;at _stream_readable.js:919:16<br> &nbsp; &nbsp;at process._tickCallback (node.js:419:13)
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":106,"courses":["IT101","CS203"]}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/student/studentEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 39
+>
+* upload completely sent off: 39 out of 39 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 500 Internal Server Error
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:12:52 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":106,"courses":["IT101";"CS203"]}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/student/studentEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 39
+>
+* upload completely sent off: 39 out of 39 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 400 Bad Request
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 598
+< Date: Wed, 13 Aug 2014 12:13:22 GMT
+< Connection: keep-alive
+<
+SyntaxError: Unexpected token ;<br> &nbsp; &nbsp;at Object.parse (native)<br> &nbsp; &nbsp;at parse (Z:\University\node_modules\body-parser\lib\types\json.js:64:17)<br> &nbsp; &nbsp;at Z:\University\node_modules\body-parser\lib\read.js:96:18<br> &nbsp; &nbsp;at IncomingMessage.onEnd (Z:\University\node_modules\body-parser\node_modules\raw-body\index.js:136:7)<br> &nbsp; &nbsp;at IncomingMessage.g (events.js:180:16)<br> &nbsp; &nbsp;at IncomingMessage.EventEmitter.emit (events.js:117:20)<br> &nbsp; &nbsp;at _stream_readable.js:919:16<br> &nbsp; &nbsp;at process._tickCallback (node.js:419:13)
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":106,"courses":["CS306","CS203"]}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/student/studentEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 39
+>
+* upload completely sent off: 39 out of 39 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 500 Internal Server Error
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:13:47 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":106,"courses":["CS306","CS308"]}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/student/studentEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 39
+>
+* upload completely sent off: 39 out of 39 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:14:30 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ ^C
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/student/about/106
+bash: $'\302\203curl': command not found
+
+nbhagat@LP-NBHAGAT ~
+$curl -v -X GET http://localhost:3000/services/student/about/106
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/student/about/106 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 343
+< ETag: W/"157-1598884019"
+< Date: Wed, 13 Aug 2014 12:15:51 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"studentinfo":[{"sid":106,"sname":"Sarah ","cid":"IT101","cname":"Parallel Programming","tid":"Brian","tname":"Brian Ford"},{"sid":106,"sname":"Sarah ","cid":"CS306","cname":"Machine Learning","tid":"Brian","tname":"Brian Ford"},{"sid":106,"sname":"Sarah ","cid":"CS308","cname":"Data Structure and Algorithms","tid":"KVS","tname":"Sankar"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/student/about/109
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/student/about/109 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:15:57 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X DELETE http://localhost:3000/services/student/106/edit/106
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> DELETE /services/student/106/edit/106 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:16:16 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X DELETE http://localhost:3000/services/student/106/edit/106
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> DELETE /services/student/106/edit/106 HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 12:16:27 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/teachers
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/teachers HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 122
+< ETag: W/"7a-609272701"
+< Date: Wed, 13 Aug 2014 12:21:40 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"teacherarr":[{"tid":"Brian","tname":"Brian Ford"},{"tid":"Heave","tname":"Misko Heavy"},{"tid":"KVS","tname":"Sankar"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/teacher/Brian
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/teacher/Brian HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 52
+< ETag: W/"34-344662666"
+< Date: Wed, 13 Aug 2014 12:21:47 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"teacherinfo":{"tid":"Brian","tname":"Brian Ford"}}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/teacher/Brianmnl/skngf
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/teacher/Brianmnl/skngf HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 4471
+< ETag: W/"1177-4067109666"
+< Date: Wed, 13 Aug 2014 12:21:50 GMT
+< Connection: keep-alive
+<
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/carousel.css">
+<link rel="stylesheet" href="/css/font3.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+<link rel="stylesheet" type="text/css" href="/grid/release/ui-grid-unstable.css">
+<link rel="stylesheet" type="text/css" href="/css/ng-grid.css">
+<link rel="stylesheet" href="/css/app.css">
+
+</head>
+<body>
+
+
+
+  <div ng-controller="myController">
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+        <nav id="sidebar-wrapper"  >
+                <ul class="sidebar-nav">
+                        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                        <li class="sidebar-brand { active: isActive('/')}">
+                                <a href="#top">Home</a>
+                        </li>
+                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                </ul>
+        </nav>
+</div>
+
+        <!--
+        /// new design
+
+-->     <div class="navbar-wrapper">
+<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">University</a>
+                        </div>
+                        <div class="navbar-collapse collapse" ng-controller="myController">
+                                <ul class="nav navbar-nav">
+                                        <li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+                                        <li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+                                        <li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+                                        <li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div class="leaderboard">
+                <div class="row-fluid" ng-view ng-cloak></div>
+        </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="/grid/release/ui-grid-unstable.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script>
+// Closes the sidebar menu
+$("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                                $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                        }
+                }
+        });
+});
+
+</script>
+
+</body>
+</html>
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/teacher/Brianmnl
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/teacher/Brianmnl HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 12:21:54 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/teacher/Brianmnljf,dmhfmh
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/teacher/Brianmnljf,dmhfmh HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 12:21:59 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/newTeacher -H "Content-Type: application/json" -d  '{"tid":"Ari", "tname":"Ari Leaner"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/newTeacher HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 35
+>
+* upload completely sent off: 35 out of 35 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:22:18 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X PUT http://localhost:3000/services/teacher/ari -H "Content-Type: application/json" -d '{"tname":"Todd Motto"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> PUT /services/teacher/ari HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 22
+>
+* upload completely sent off: 22 out of 22 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 12:22:54 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X PUT http://localhost:3000/services/teacher/Ari -H "Content-Type: application/json" -d '{"tname":"Todd Motto"}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> PUT /services/teacher/Ari HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 22
+>
+* upload completely sent off: 22 out of 22 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:23:10 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/teacher/enroll/Ari
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/teacher/enroll/Ari HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 359
+< ETag: W/"167-178382688"
+< Date: Wed, 13 Aug 2014 12:24:06 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"courseList":[{"cid":"CS306","cname":"Machine Learning"},{"cid":"CS204","cname":"Operating System"},{"cid":"CS308","cname":"Data Structure and Algorithms"},{"cid":"CS401","cname":"Javascript and Web Fundamentals"},{"cid":"CS402","cname":"Angular JS"},{"cid":"CS203","cname":"Database Design and Organisation"},{"cid":"IT101","cname":"Parallel Programming"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/teacher/teacherEnrollment -H "Content-Type:application/json" -d '{"tid":"Ari","courses":["CS306","CS308"]}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/teacher/teacherEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 41
+>
+* upload completely sent off: 41 out of 41 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 500 Internal Server Error
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:24:29 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X POST http://localhost:3000/services/teacher/teacherEnrollment -H "Content-Type:application/json" -d '{"tid":"Ari","courses":["CS203","CS606"]}'
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> POST /services/teacher/teacherEnrollment HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+> Content-Type:application/json
+> Content-Length: 41
+>
+* upload completely sent off: 41 out of 41 bytes
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:28:20 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/teacher/about/Ari
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/teacher/about/Ari HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 192
+< ETag: W/"c0-3861990297"
+< Date: Wed, 13 Aug 2014 12:28:42 GMT
+< Connection: keep-alive
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+{"teacherinfo":[{"tid":"Ari","tname":"Todd Motto","cid":"CS203","cname":"Database Design and Organisation"},{"tid":"Ari","tname":"Todd Motto","cid":"CS606","cname":"Artificial Intelligence"}]}
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X DELETE http://localhost:3000/services/teacher/Ari/edit/Ari
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> DELETE /services/teacher/Ari/edit/Ari HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< X-Powered-By: Express
+< Date: Wed, 13 Aug 2014 12:28:54 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X DELETE http://localhost:3000/services/teacher/Ari/edit/Ari
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> DELETE /services/teacher/Ari/edit/Ari HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 12:29:13 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$ curl -v -X GET http://localhost:3000/services/teacher/about/Ari
+* STATE: INIT => CONNECT handle 0x60002e140; line 1028 (connection #-5000)
+* Hostname was NOT found in DNS cache
+*   Trying ::1...
+* STATE: CONNECT => WAITCONNECT handle 0x60002e140; line 1076 (connection #0)
+*   Trying 127.0.0.1...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+* STATE: WAITCONNECT => DO handle 0x60002e140; line 1195 (connection #0)
+> GET /services/teacher/about/Ari HTTP/1.1
+> User-Agent: curl/7.37.0
+> Host: localhost:3000
+> Accept: */*
+>
+* STATE: DO => DO_DONE handle 0x60002e140; line 1281 (connection #0)
+* STATE: DO_DONE => WAITPERFORM handle 0x60002e140; line 1407 (connection #0)
+* STATE: WAITPERFORM => PERFORM handle 0x60002e140; line 1420 (connection #0)
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< content-type: text/plain
+< Date: Wed, 13 Aug 2014 12:29:15 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+<
+* STATE: PERFORM => DONE handle 0x60002e140; line 1590 (connection #0)
+* Connection #0 to host localhost left intact
+* Expire cleared
+<p>The Server returned 404 </p>
+nbhagat@LP-NBHAGAT ~
+$

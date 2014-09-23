@@ -1,0 +1,54 @@
+<div class="jumbotron">
+  <form role="form-horizontal" class="container-fluid">
+
+  <fieldset>
+  <legend>
+    Student Info
+  </legend>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">StudentId</p></dt>
+          <dd>
+          <p class="text-success">{{student.sid}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">Student Name</p></dt>
+          <dd>
+            <p class="text-success">{{student.sname}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+          <a href="students/about/{{student.sid}}" class="btn btn-dark btn-lg">Find Out More</a>
+       </div>
+     </div>
+   </section>
+
+
+</fieldset>
+</form>
+
+
+
+</div>

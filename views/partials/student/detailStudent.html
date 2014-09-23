@@ -1,0 +1,65 @@
+<div class="jumbotron ng-cloak" ng-cloak>
+  <div ng-show="is404==0" >
+    <p> 404 fish </p>
+  </div>
+  <form role="form-horizontal" class="container-fluid" ng-show="is404==1" >
+
+  <fieldset>
+  <legend>
+    Student Details
+  </legend>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">StudentId</p></dt>
+          <dd>
+          <p class="text-success">{{student[0].sid}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">Student Name</p></dt>
+          <dd>
+            <p class="text-success">  {{student[0].sname}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+          <div class="panel panel-primary" width="200px">
+            <div class="panel-heading">
+            EnrollMent Details
+            </div>
+
+
+                <table class="table" >
+                  <tr><th class="text-danger">CourseId</th><th  class="text-danger">CourseName</th><th  class="text-danger">TeacherName</th></tr>
+                  <tr ng-repeat="data in student"><td class="text-info">{{data.cid}}</td><td class="text-success">{{data.cname}}</td><td class="text-warning">{{data.tname}}</td></tr>
+                </table>
+
+              </div>
+       </div>
+     </div>
+   </section>
+
+
+</fieldset>
+</form>
+</div>

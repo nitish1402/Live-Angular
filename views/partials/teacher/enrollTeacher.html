@@ -1,0 +1,94 @@
+<div class="jumbotron">
+<!--{{}}
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+-->
+<form role="form-horizontal" class="container-fluid">
+  <fieldset>
+    <legend>
+      Teacher Enrollment
+    </legend>
+
+    <section>
+      <div class="control-group">
+        <div class="control">
+          <dl class="dl-horizontal">
+            <dt><p class="text-info text-left">TeacherId</p></dt>
+            <dd>
+              <p class="text-success">{{teacher.tid}}</p>
+            </dd>
+
+          </dl>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="control-group">
+        <div class="control">
+          <dl class="dl-horizontal">
+            <dt><p class="text-info text-left">Teacher Name</p></dt>
+            <dd>
+              <p class="text-success">{{teacher.tname}}</p>
+            </dd>
+
+          </dl>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+      <div class="control-group">
+        <div class="controls">
+          <dl class="dl-horizontal">
+            <dt> <p class="text-info text-left">Select Courses1:</p></dt>
+            <dd>
+
+              <!-- Multiple dropdown List -->
+              <div
+              multi-select
+              input-model="courseList"
+              button-label="cid"
+              item-label=" cid cname  "
+              tick-property="ticked"
+              >
+            </div>
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="control-group">
+      <div class="controls">
+        <div class="panel panel-primary" width="200px">
+          <div class="panel-heading">
+            Your Selected Courses
+          </div>
+
+
+
+          <table class="table" >
+            <tr><th class="text-danger">CourseId</th><th  class="text-danger">CourseName</th></tr>
+            <tr ng-repeat="data in courseList" ng-if="data.ticked">
+              <div ><td class="text-info">{{data.cid}}</td><td class="text-success">{{data.cname}}</td>
+              </div></tr>
+              <tr ng-repeat="data in user.courses">
+                <td class="text-info">{{data.cid}}</td><td class="text-success">{{data.cname}}</td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <button type="submit" class="btn btn-success" data-ng-click="enrollTeacher()">Submit</button>
+</feildset>
+</form>
+</div>

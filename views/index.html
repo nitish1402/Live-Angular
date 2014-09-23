@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html data-ng-app="myApp">
+<head>
+	<meta charset="utf8">
+	<base href="/">
+	<title>University</title>
+<link rel="stylesheet" href="/design/css/metro-bootstrap.css">
+<!--
+<link rel="stylesheet" href="/css/superbootstrap.css">
+-->
+<style>html { font-size: 12px; font-family: Arial, Helvetica, sans-serif; }</style>
+<style>
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+
+      /* First, a slight adjustment to horizontal media queries to help make CTAs visible on mobile */
+      @media (max-width: 480px) {
+        .hero-unit {padding:5px 20px 20px;margin-bottom:0}
+      }
+
+      /* Second, the vertical media queries! */
+      @media screen and (max-height:600px){
+        body{font-size:.7em;}
+        .hero-unit {padding:20px;margin-bottom:15px;}
+          .hero-unit h1 {font-size:30px;}
+        h2 {font-size:20px;}
+      }
+
+      @media screen and (max-height:450px){
+        body {font-size:0.6em;line-height:1.4em;padding-top:30px;}
+        .navbar .brand {font-size:15px;line-height:1.4em}
+          .navbar-inner form {display:none;}
+        .hero-unit {padding:15px;margin-bottom:0;}
+          .hero-unit h1 {font-size:17px;}
+          .hero-unit p {font-size:14px;line-height:20px}
+          .btn-large {padding: 5px 10px;font-size: 13px;}
+        h2 {font-size:15px;line-height:1.5em}
+      }
+
+      /* Thirdly, some media queries for both X and Y axis to fine tune some of the horizontal break points */
+      @media screen and (max-height:700px) and (max-width:980px){
+        .hero-unit {padding:25px;margin-bottom:0;}
+      }
+
+      @media screen and (max-height:550px) and (max-width:980px){
+        body {padding-top:0;}
+        .hero-unit h1 {font-size:25px;}
+        .hero-unit p {font-size:14px;line-height:20px}
+        .navbar-fixed-top {margin-bottom:0;}
+        .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {padding:0;}
+        .hero-unit {padding:5px 15px 10px;}
+      }
+
+      @media screen and (max-height:600px) and (max-width:1200px){
+        .hero-unit {padding:15px;margin-bottom:0;}
+      }
+
+    </style>
+<link rel="stylesheet" href="/css/bootstrapdarkly.min.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<!---  Kendo Ui CSS -->
+<link rel="stylesheet" href="/css/kendo.common.min.css">
+<link rel="stylesheet" href="//cdn.kendostatic.com/2014.1.416/styles/kendo.silver.min.css">
+<link rel="stylesheet" href="http://cdn.kendostatic.com/2014.2.903/styles/kendo.dataviz.min.css">
+<link rel="stylesheet" href="http://cdn.kendostatic.com/2014.2.903/styles/kendo.dataviz.default.min.css">
+
+
+<!--- end kendo css inclusion -->    
+
+<link rel="stylesheet" href="/css/angular-multi-select.css">
+<link rel="stylesheet" href="/design/css/iconFont.css">
+
+
+
+</head>
+<body>
+
+<!-- un comment if you need side pan
+  <div ng-controller="myController">
+	<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars icon-rocket " ></i></a>
+	<nav id="sidebar-wrapper"  >
+		<ul class="sidebar-nav">
+			<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+			<li class="sidebar-brand { active: isActive('/')}">
+				<a href="#top">Home</a>
+			</li>
+			<li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+			<li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+			<li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+		</ul>
+	</nav>
+</div>
+-->
+	<!--
+	/// new design
+
+-->	<div class="navbar-wrapper">
+<div class="container">
+
+	<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">University</a>
+			</div>
+			<div class="navbar-collapse collapse" ng-controller="myController">
+				<ul class="nav navbar-nav">
+					<li ng-class="{ active: isActive('/')}"><a href="#">Home</a></li>
+					<li  ng-class="{ active: isActive('/courses')}"><a href="/courses">Courses</a></li>
+					<li ng-class="{ active: isActive('/students')}"><a href="/students">Students</a></li>
+					<li ng-class="{ active: isActive('/teachers')}"><a href="/teachers">Teachers</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+
+<!-- Navigation -->
+
+
+
+
+<hr class="featurette-divider">
+
+<div class="container">
+	<!-- Main hero unit for a primary marketing message or call to action -->
+	<div class="leaderboard">
+		<div class="row-fluid" ng-view ng-cloak></div>
+	</div>
+</div>
+
+<!---
+	note when including kendoui js files
+	structure would be
+	1.jquery.js
+	2.angular.js
+	3.kendo.ui.all.js
+	4.angular-kendo.js  /*optional as in new kendo ui angular kendo is already
+	                      included */
+	this should be the strcuture otherwise the kendo widgets doesnot work
+-->
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/lib/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
+<script src="http://cdn.kendostatic.com/2014.1.318/js/kendo.all.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-touch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-animate.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-sanitize.min.js"></script>
+<script src="https://cdn.socket.io/socket.io-1.0.6.js"></script>
+<script src="js/lib/angular-multi-select.js"></script>
+<script src="js/lib/checklist-model.js"></script>
+<script src="js/lib/lvl-drag-drop.js"></script>
+<script src="js/lib/angular-kendo.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers/courseCtrl.js"></script>
+<script src="js/controllers/studentCtrl.js"></script>
+<script src="js/controllers/teacherCtrl.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script type="text/javascript">
+   var socket = io('http://localhost:3000');
+
+
+
+</script>
+
+<script>
+// Closes the sidebar menu
+/** uncomment for sidepan
+$("#menu-close").click(function(e) {
+	e.preventDefault();
+	$("#sidebar-wrapper").toggleClass("active");
+});
+
+// Opens the sidebar menu
+$("#menu-toggle").click(function(e) {
+	e.preventDefault();
+	$("#sidebar-wrapper").toggleClass("active");
+});
+
+
+
+// Scrolls to the selected menu item on the page
+$(function() {
+	$('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			if (target.length) {
+				$('html,body').animate({
+					scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			}
+		}
+	});
+});
+**/
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "pgnode-app",
+  "description": "Sample app for Node.js and PostgreSQL",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "ejs": "^1.0.0",
+    "express": "^4.0.0",
+    "method-override": "^1.0.0",
+    "jade": "*",
+    "pg": "*",
+    "morgan": "^1.0.0",
+    "nodemon":"^1.2.1",
+    "angular-pusher": "^0.0.7",
+    "pusher":"^1.0.1",
+    "socket.io":"^1.0.0"
+  }
+}

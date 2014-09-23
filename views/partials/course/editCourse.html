@@ -1,0 +1,54 @@
+<div class="jumbotron">
+  <form role="form-horizontal" class="container-fluid">
+
+  <fieldset>
+  <legend>
+    Edit a Course
+  </legend>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">CourseId</p></dt>
+          <dd>
+          <p class="text-success">{{form.cid}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">Course Name</p></dt>
+          <dd>
+            <input data-ng-model="form.cname" name="name"/>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <button class="btn"  data-ng-click="cancel()">cancel</button>
+        <button class="btn btn-success"  data-ng-click="editCourse()">Save</button>
+         <a ng-href="courses/{{form.cid}}/edit/{{form.cid}}/delete" ><button class="btn btn-danger">delete</button>
+         </a>
+       </div>
+     </div>
+   </section>
+
+
+</fieldset>
+</form>
+</div>

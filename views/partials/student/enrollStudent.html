@@ -1,0 +1,197 @@
+<div class="jumbotron">
+  <!--{{}}
+  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+-->
+<form role="form-horizontal" class="container-fluid">
+  <fieldset>
+    <legend>
+      Student Enrollment
+    </legend>
+
+    <section>
+      <div class="control-group">
+        <div class="control">
+          <dl class="dl-horizontal">
+            <dt><p class="text-info text-left">StudentId</p></dt>
+            <dd>
+              <p class="text-success">{{student.sid}}</p>
+            </dd>
+
+          </dl>
+
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="control-group">
+        <div class="control">
+          <dl class="dl-horizontal">
+            <dt><p class="text-info text-left">Student Name</p></dt>
+            <dd>
+              <p class="text-success">{{student.sname}}</p>
+            </dd>
+
+          </dl>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+      <div class="control-group">
+        <div class="controls">
+          <dl class="dl-horizontal">
+            <dt> <p class="text-info text-left">Select Courses :</p></dt>
+            <dd>
+
+              <!-- Multiple dropdown List -->
+              <div
+              multi-select
+              input-model="courseList"
+              button-label="cid"
+              item-label=" cid cname  "
+              tick-property="ticked"
+              >
+            </div>
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <section>
+
+    <div class="control-group">
+      <div class="controls">
+        <dl class="dl-horizontal">
+          <dt> <p class="text-info text-left">Select Courses :</p></dt>
+          <dd>
+
+            <div class="panel panel-primary" style="width:800px">
+              <div class="panel-heading">
+                Select Courses from checkboxes
+              </div>
+
+            <!-- Multiple checkbox List -->
+            <div>
+              <div ng-repeat="course in courseList"  class="text-success " style="margin-left:50px">
+                <input type="checkbox" class="checkbox-inline" checklist-model="user.courses" checklist-value="course"> {{course.cid}}
+              </div>
+            </div>
+
+            <div class="btn">
+              <button class="btn btn-primary btn-sm" ng-click="checkAll()">SelectAll</button>
+              <button class="btn btn-danger  btn-sm" ng-click="uncheckAll()">UnselectAll</button>
+              <button class="btn btn-info btn-sm" ng-click="checkFirst()">Select first</button>
+            </div>
+
+          </div>
+
+
+
+
+          </dd>
+        </dl>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+
+    <div class="control-group">
+      <div class="controls">
+        <dl class="dl-horizontal">
+          <dt> <p class="text-info text-left">Select Courses</p></dt>
+          <dd>
+            <!-- Dual List -->
+            <!-- //////////////////////////////////////////// -->
+            <!-- //////////////////////////////////////////// -->
+            <!-- //////////////////////////////////////////// -->
+
+
+
+            <div class="row">
+
+              <div class="col-sm-5 col-sm-offset-0">
+                <div class="list-group" id="list1" x-lvl-drop-target="true" x-on-drop="drop(dragEl, dropEl, bToA)">
+                  <a href="javascript:;" class="list-group-item active">Available courses
+                    <input title="Toggle all" ng-click="toggleA()" ng-model="toggle" value="{{toggle}}" type="checkbox" class="pull-right"></a>
+                    <span ng-repeat="user in listA">
+                      <a href="javascript:;" data-id="{{user.cid}}" x-lvl-draggable="true" class="list-group-item">{{user.cname}}
+                        <small class="text-muted"><em>{{user.cid}}</em></small>
+                        <input id="{{user.cid}}" ng-click="selectedA.push(user.cid)" name="selectedA[]" value="{{user.cid}}" ng-checked="selectedA.indexOf(user.cid) > -1" type="checkbox" class="pull-right">
+                      </a>
+                    </span>
+                  </div>
+                </div><!--/col-4-->
+
+                <div class="col-md-2 v-center text-center">
+                  <div class="btn-group">
+                    <button title="Send to list 1" class="btn btn-default" ng-click="bToA()" id="btnA"><i class="icon-arrow-left-3"></i></button>
+                    <button title="Send to list 2" class="btn btn-default" ng-click="aToB()" id="btnB"><i class="icon-arrow-right-3"></i></button>
+                  </div>
+                  <h6 class="text-center text-info">move from list-to-list</h6>
+                </div><!--/col-2-->
+                <div class="col-sm-4">
+                  <div class="list-group" id="list2" x-lvl-drop-target="true" x-on-drop="drop(dragEl, dropEl, aToB)">
+                    <a href="javascript:;" class="list-group-item active">Selected Courses
+                      <input title="Toggle all" ng-click="toggleB()" ng-model="toggle" value="{{toggle}}" type="checkbox" class="pull-right">
+                    </a>
+                    <span ng-repeat="user in listB">
+                      <a href="javascript:;" data-id="{{user.cid}}" class="list-group-item" x-lvl-draggable="true">{{user.cname}}
+                        <small class="text-muted"><em>{{user.cid}}</em></small>
+                        <input id="{{user.cid}}" ng-click="selectedB.push(user.cid)" name="selectedB[]" value="{{user.cid}}" ng-checked="selectedB.indexOf(user.cid) > -1" type="checkbox" class="pull-right">
+                      </a>
+                    </span>
+                  </div>
+                </div><!--/col-4-->
+
+              </div><!--/row-->
+
+
+              <!--/container-fluid-->
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section>
+
+      <div class="control-group">
+        <div class="controls">
+          <div class="panel panel-primary" width="200px">
+            <div class="panel-heading">
+              Your Selected Courses
+            </div>
+
+
+
+            <table class="table" >
+              <tr><th class="text-danger">CourseId</th><th  class="text-danger">CourseName</th></tr>
+              <tr ng-repeat="data in courseList" ng-if="data.ticked">
+                <div ><td class="text-info">{{data.cid}}</td><td class="text-success">{{data.cname}}</td>
+                </div></tr>
+                <tr ng-repeat="data in user.courses">
+                  <td class="text-info">{{data.cid}}</td><td class="text-success">{{data.cname}}</td>
+                </tr>
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <button type="submit" class="btn btn-success" data-ng-click="enrollStudent()">Submit</button>
+    </fieldset>
+  </form>
+</div>

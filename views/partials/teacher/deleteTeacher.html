@@ -1,0 +1,54 @@
+<div class="jumbotron">
+  <form role="form-horizontal" class="container-fluid">
+
+  <fieldset>
+  <legend>
+    Delete a Teacher
+  </legend>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">TeacherId</p></dt>
+          <dd>
+          <p class="text-success">{{teacher.tid}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">Teacher Name</p></dt>
+          <dd>
+            <p class="text-success">{{teacher.tname}}</p>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <p class="text-warning">Are you sure you want to delete this teacher?
+           <button class="btn-danger"data-ng-click="deleteTeacher()">Yes</button>
+           -<button class="btn-primary" data-ng-click="home()">Nope</button>
+         </p>
+       </div>
+     </div>
+   </section>
+
+
+</fieldset>
+</form>
+</div>

@@ -1,0 +1,78 @@
+<!--
+   add a configuration type here for adding courses
+   its going to be complex later work
+-->
+
+
+<div class="jumbotron" >
+
+<!-- old form -->
+  <form role="form-horizontal" name="addTeacher" ng-submit="submitTeacher()" class="container-fluid" novalidate>
+
+  <fieldset>
+  <legend>
+    Add a Teacher
+  </legend>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">TeacherId</p></dt>
+          <dd>
+            <input data-ng-model="form.id" name="id"  type="text" ng-minlength="2" ng-maxlength="8" required/>
+            <div ng-show="addTeacher.id.$dirty && addTeacher.id.$invalid">
+						<small class="text-danger" ng-show="addTeacher.id.$error.required">
+						 id is required
+						</small>
+						<small class="text-danger" ng-show="addTeacher.id.$error.minlength">
+					   id should be atleast 2 characters long
+						</small>
+						<small class="text-danger" ng-show="addTeacher.id.$error.maxlength">
+						 id should be atmax 8 characters long
+						</small>
+
+					</div>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+  <section>
+    <div class="control-group">
+      <div class="control">
+        <dl class="dl-horizontal">
+          <dt><p class="text-info text-left">Teacher Name</p></dt>
+          <dd>
+            <input type="text" data-ng-model="form.name" name="tname" ng-minlength="1" required/>
+            <div ng-show="addTeacher.tname.$dirty && addTeacher.tname.$invalid">
+            <small class="text-danger" ng-show="addTeacher.tname.$error.required">
+             Name is required
+            </small>
+          </dd>
+
+        </dl>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <section>
+    <div class="control-group">
+      <div class="control">
+
+      <button class="btn btn-success" type="submit" ng-disabled="addTeacher.$invalid">Submit</button>
+    </div>
+  </div>
+</section>
+
+
+</fieldset>
+
+</from>
+</div>
