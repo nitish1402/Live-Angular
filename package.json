@@ -3,6 +3,7 @@
   "description": "Sample app for Node.js and PostgreSQL",
   "version": "0.0.1",
   "private": true,
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
@@ -18,5 +19,19 @@
     "angular-pusher": "^0.0.7",
     "pusher":"^1.0.1",
     "socket.io":"^1.0.0"
-  }
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitish1402/Live-Angular"
+  },
+  "keywords": [
+    "node",
+    "angularjs",
+    "express",
+    "Postgres"
+  ],
+  "license": "MIT"
 }
