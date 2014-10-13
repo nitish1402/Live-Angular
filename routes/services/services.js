@@ -3,7 +3,7 @@
 
 var pg               = require('pg');
 pg.defaults.poolSize = 10;
-var dbUrl            = "postgres://postgres:nitish@localhost:5432/universitynew";
+var dbUrl            = "postgres://nitish:nitish@localhost:5432/universitynew";
 var user             = {};
 
 var courseList = [];
@@ -56,7 +56,7 @@ function processReqResSql(req, res, sql){
 
 //GET
 exports.entities = function(req, res , sql) {
-  
+
   processReqResSql(req, res, sql,entityarr);
 };
 
@@ -83,11 +83,11 @@ function read(req, res,sql) {
         {
             if(result.rows.length>0)
             {
-              
+
                res.json({entityinfo:sr.output[0]});
 
             }
-           
+
 
             else
             {
@@ -167,7 +167,7 @@ exports.addEntity = function(req,res,sql){
         }
       else
         {
-          
+
           res.status(200).end();
         }
 
@@ -190,7 +190,7 @@ exports.editEntity = function(req,res,sql,change){
         //checking result.rowCount
         if(result.rowCount>0)
           {
-            
+
             res.status(200).end();
           }
         else
@@ -239,7 +239,7 @@ exports.enrollEntity = function(req,res){
 
   //id is required because we want to enroll a student to courses
   var id         = req.params.id;
-  
+
   var sql1       = "SELECT * FROM course";
 
   user.query(sql1,function(err,result){
@@ -256,7 +256,7 @@ exports.enrollEntity = function(req,res){
         {
             if(result.rows.length>0)
             {
-               
+
                 res.json({courseList:result.rows});
             }
 
