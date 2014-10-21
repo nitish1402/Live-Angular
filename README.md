@@ -5,10 +5,10 @@ Server side JavaScript supporting RESTful web services for a CRUD application wi
 Application is hosted at heroku : http://guarded-journey-4504.herokuapp.com/
 
 ##Requirements##
- * [Postgres](www.postgresql.org)
- * [Express](express.com)
- * [Nodejs](nodejs.org)
- * [AngularJs](angularjs.org)
+ * [Postgres](http://www.postgresql.org)
+ * [Express](http://express.com)
+ * [Nodejs](http://nodejs.org)
+ * [AngularJs](http://angularjs.org)
 
 ##Setting up the database##
 
