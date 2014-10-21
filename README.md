@@ -19,19 +19,18 @@ Application is hosted at heroku : http://guarded-journey-4504.herokuapp.com/
    * go to ` /routes/services/services.js `
    * find  `var dbUrl = "postgres://nitish:nitish@localhost:5432/universitynew"`
    * change abovee line to `var dbUrl = "postgres://[Username]:[Password]@localhost:5432/universitynew";`
-   * username and password are your Postgres
+   * username and password are your Postgres authentication parameters.
 
 ##Installation##
- * Download the repository and extract.
- * Make sure that **npm** ans **nodejs** are installed
+ * Download and extract the repository.
+ * Make sure that **npm** and **nodejs** are installed
  * run **npm install** in console
  * run **npm start**
- * In your browser open http://localhost:3000
+ * In your browser open `http://localhost:3000`
 
-##future work##
-  have to add socket.js support for live updates
+##Future work##
+  have to add socket.js support for live updates and enhance the app.
 
 ##Contact##
 
 * [twitter](https://twitter.com/princeladdak)
-* Fork and Enjoy 
