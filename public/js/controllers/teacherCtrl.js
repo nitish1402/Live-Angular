@@ -4,9 +4,29 @@
 //new changes with ui-grid
 
 /* Controllers */
+var socket = io('http://localhost:3001');
 function TeacherIndexCtrl($scope, $http, $location) {
 
 
+  socket.on('edit:Teacher',function(data){
+
+    $scope.teacherGrid.dataSource.read();
+
+  });
+
+
+  socket.on('add:Teacher',function(data){
+
+    $scope.teacherGrid.dataSource.read();
+
+  });
+
+
+  socket.on('delete:Teacher',function(data){
+
+    $scope.teacherGrid.dataSource.read();
+
+  });
 
   $scope.teachers = []; //initilising teachers
   $scope.mySelections = [];

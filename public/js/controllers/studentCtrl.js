@@ -5,10 +5,30 @@
 //latest change using kendo-ui
 
 /* Controllers */
+var socket = io('http://localhost:3001');
 function StudentIndexCtrl($scope, $http, $location) {
 
 
 
+  socket.on('edit:Student',function(data){
+
+    $scope.studentGrid.dataSource.read();
+
+  });
+
+
+  socket.on('add:Student',function(data){
+
+    $scope.studentGrid.dataSource.read();
+
+  });
+
+
+  socket.on('delete:Student',function(data){
+
+    $scope.studentGrid.dataSource.read();
+
+  });
   $scope.students = []; //initialising students
   $scope.mySelections = [];
 

@@ -6,12 +6,30 @@
 //editable option unchecking
 
 /* Controllers */
-var socket = io('http://localhost:3000');
+var socket = io('http://localhost:3001');
 var courses = []; //initilising courses
 function CourseIndexCtrl($scope, $http, $location) {
 
 
+socket.on('edit:Course',function(data){
 
+  $scope.courseGrid.dataSource.read();
+
+});
+
+
+socket.on('add:Course',function(data){
+
+  $scope.courseGrid.dataSource.read();
+
+});
+
+
+socket.on('delete:Course',function(data){
+
+  $scope.courseGrid.dataSource.read();
+
+});
 
   $scope.mySelections = [];
 
@@ -28,18 +46,18 @@ function CourseIndexCtrl($scope, $http, $location) {
     dataSource : {
 
       type : 'json',
+       autoSync: true,
       transport: {
 
 
             read: {
               url:"services/courses",
-              datatype : 'jsonp'
+              datatype : 'json'
             },
             update : {
               url : function(e){
                 console.log(e.models[0]);
                 http.put('services/course/'+e.models[0].cid,e.models[0]).success(function(data){
-
                   console.log("success");
 
                 })
@@ -100,6 +118,7 @@ function CourseIndexCtrl($scope, $http, $location) {
     },
 
     selectable : false,
+    filterable : true,
     groupable: true,
     sortable: true,
     pageable:{

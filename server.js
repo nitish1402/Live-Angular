@@ -9,15 +9,21 @@ var bodyParser     = require('body-parser'); //Middle ware for parsing data like
 var methodOverride = require('method-override'); //provide PUT and DELETE where client doesn't support it
 var morgan         = require('morgan'); //logging into the console
 var routes         = require('./routes'); //requesting services from routes folder
-var port           = process.env.PORT || 3000; //setting port
+var port           = process.env.PORT || 3001; //setting port
 var router         = express.Router(); //using express router
-var course         = require('./routes/services/courses');  //our CRUD services
-var student        = require('./routes/services/students');  //our CRUD services
-var teacher        = require('./routes/services/teachers');  //our CRUD services
-var main           = require('./routes/services/services')
+
 var app = module.exports = express();
 var http = require('http').Server(app);
 var io             = require('socket.io')(http);
+
+var course         = require('./routes/services/courses')(io);  //our CRUD services
+var student        = require('./routes/services/students')(io);  //our CRUD services
+var teacher        = require('./routes/services/teachers')(io);  //our CRUD services
+//var main           = require('./routes/services/services')
+
+
+exports.io = io;
+
 // ===============================================
 
 /**
@@ -32,7 +38,12 @@ app.engine('html', require('ejs').renderFile);    // use ejs to render html
 app.use(express.static(__dirname + '/public'));   // set the static files location /public/img will be /img for users
 app.set('views', __dirname + '/views');
 app.use('/', router);
-
+app.all("/services/*", function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Cache-Control, Pragma, Origin, Authorization, Content-Type, X-Requested-With");
+  res.header("Access-Control-Allow-Methods", "GET, PUT, POST");
+  return next();
+});
 
 var env = process.env.NODE_ENV || 'development';
 if ('development' == env) {
@@ -75,19 +86,28 @@ router.get('/services/teacher/about/:id', teacher.detailedTeacher);
 router.put('/services/teacher/:id', teacher.editTeacher);
 router.delete('/services/teacher/:id/edit/:id', teacher.deleteTeacher);
 
-io.on('connection', function(socket){
-	socket.on('edit:course',function(){
-		console.log("editing course !!!");
-		router.get('/services/course/:id', course.readCourse);
 
-	})
-});
 /*
 router.get('/services/product/:id', services.product);
 router.put('/services/product/:id', services.editProduct);
 router.delete('/services/product/:id/edit/:id', services.deleteProduct)
 */
+io.on('connection', function(socket){
+	console.log('connected to socket');
+	var address = socket.handshake.address;
+	console.log(socket.handshake);
+	console.log(address);
+	console.log("Id:"+socket.id);
+  console.log("New connection from " + address.address + ":" + address.port);
 
+/*
+	socket.on('message:added',function(){
+		main.testSocket(poll);
+		console.log("added a new message");
+
+	})
+*/
+});
 router.get('*', routes.index);
 
 

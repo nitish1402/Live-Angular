@@ -5,71 +5,71 @@
 //course api
 
 a) get all courses
-curl -v -X GET http://localhost:3000/services/courses
+curl -v -X GET http://localhost:3001/services/courses
 
 b)get a particular course
-curl -v -X GET http://localhost:3000/services/course/CS203
+curl -v -X GET http://localhost:3001/services/course/CS203
 
 c)post: add a new course
-curl -v -X POST http://localhost:3000/services/newCourse -H "Content-Type: application/json" -d  '{"id":"CS212", "name":"Computer Networks"}'
+curl -v -X POST http://localhost:3001/services/newCourse -H "Content-Type: application/json" -d  '{"id":"CS212", "name":"Computer Networks"}'
 
 d)put : edit a course
-curl -v -X PUT http://localhost:3000/services/course/CS212 -H "Content-Type: application/json" -d '{"cname":"Complex Networks"}'
+curl -v -X PUT http://localhost:3001/services/course/CS212 -H "Content-Type: application/json" -d '{"cname":"Complex Networks"}'
 
 e)delete a course
-curl -v -X DELETE http://localhost:3000/services/course/CS212/edit/CS212
+curl -v -X DELETE http://localhost:3001/services/course/CS212/edit/CS212
 
 
 //student api
 
 a) get all student
-curl -v -X GET http://localhost:3000/services/students
+curl -v -X GET http://localhost:3001/services/students
 
 b)get a particular student
-curl -v -X GET http://localhost:3000/services/student/100
+curl -v -X GET http://localhost:3001/services/student/100
 
 c)post: add a new student
-curl -v -X POST http://localhost:3000/services/newStudent -H "Content-Type: application/json" -d  '{"id":"106", "name":"Claire"}'
+curl -v -X POST http://localhost:3001/services/newStudent -H "Content-Type: application/json" -d  '{"id":"106", "name":"Claire"}'
 
 d)put : edit a student
-curl -v -X PUT http://localhost:3000/services/student/106 -H "Content-Type: application/json" -d '{"sname":"Sarah "}'
+curl -v -X PUT http://localhost:3001/services/student/106 -H "Content-Type: application/json" -d '{"sname":"Sarah "}'
 
 e)get : enrollment page
-curl -v -X GET http://localhost:3000/services/student/enroll/106
+curl -v -X GET http://localhost:3001/services/student/enroll/106
 
 f)post : enroll a student to selected courses
-curl -v -X POST http://localhost:3000/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":106,"courses":["CS306","CS308"]}'
+curl -v -X POST http://localhost:3001/services/student/studentEnrollment -H "Content-Type:application/json" -d '{"sid":106,"courses":["CS306","CS308"]}'
 
 g)Get detailed student
-curl -v -X GET http://localhost:3000/services/student/about/106
+curl -v -X GET http://localhost:3001/services/student/about/106
 
 h)delete a student
-curl -v -X DELETE http://localhost:3000/services/student/106/edit/106
+curl -v -X DELETE http://localhost:3001/services/student/106/edit/106
 
 //teacher api
 
 a) get all teacher
-curl -v -X GET http://localhost:3000/services/teachers
+curl -v -X GET http://localhost:3001/services/teachers
 
 b)get a particular teacher
-curl -v -X GET http://localhost:3000/services/teacher/Brian
+curl -v -X GET http://localhost:3001/services/teacher/Brian
 
 c)post: add a new teacher
-curl -v -X POST http://localhost:3000/services/newTeacher -H "Content-Type: application/json" -d  '{"id":"Ari", "name":"Ari Leaner"}'
+curl -v -X POST http://localhost:3001/services/newTeacher -H "Content-Type: application/json" -d  '{"id":"Ari", "name":"Ari Leaner"}'
 
 d)put : edit a teacher
-curl -v -X PUT http://localhost:3000/services/teacher/Ari -H "Content-Type: application/json" -d '{"tname":"Todd Motto"}'
+curl -v -X PUT http://localhost:3001/services/teacher/Ari -H "Content-Type: application/json" -d '{"tname":"Todd Motto"}'
 
 e)get : enrollment page
-curl -v -X GET http://localhost:3000/services/teacher/enroll/Ari
+curl -v -X GET http://localhost:3001/services/teacher/enroll/Ari
 
 f)post : enroll a teacher to selected courses
-curl -v -X POST http://localhost:3000/services/teacher/teacherEnrollment -H "Content-Type:application/json" -d '{"tid":"Ari","courses":["CS203","CS606"]}'
+curl -v -X POST http://localhost:3001/services/teacher/teacherEnrollment -H "Content-Type:application/json" -d '{"tid":"Ari","courses":["CS203","CS606"]}'
 
 g)Get detailed teacher
-curl -v -X GET http://localhost:3000/services/teacher/about/Ari
+curl -v -X GET http://localhost:3001/services/teacher/about/Ari
 
 h)delete a teacher
-curl -v -X DELETE http://localhost:3000/services/teacher/Ari/edit/Ari
+curl -v -X DELETE http://localhost:3001/services/teacher/Ari/edit/Ari
 
 +++ at every test try dummy names for 404 response +++
