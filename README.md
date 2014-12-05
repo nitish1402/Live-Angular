@@ -1,4 +1,5 @@
 #Live Angular (PEAN App)#
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nitish1402/Live-Angular?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Server side JavaScript supporting RESTful web services for a CRUD application with an AngularJS front-end and nodejs for server and Postgres as database
 
 ##Demo##
