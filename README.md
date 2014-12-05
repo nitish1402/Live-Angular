@@ -26,7 +26,7 @@ Application is hosted at heroku : http://guarded-journey-4504.herokuapp.com/
  * Make sure that **npm** and **nodejs** are installed
  * run **npm install** in console
  * run **npm start**
- * In your browser open `http://localhost:3000`
+ * In your browser open `http://localhost:3001`
 
 ##Future work##
   have to add socket.js support for live updates and enhance the app.
