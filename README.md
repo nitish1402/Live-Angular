@@ -1,5 +1,6 @@
 #Live Angular (PEAN App)#
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nitish1402/Live-Angular?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Server side JavaScript supporting RESTful web services for a CRUD application with an AngularJS front-end and nodejs for server and Postgres as database
 
 ##Demo##
@@ -19,7 +20,7 @@ Application is hosted at heroku : http://guarded-journey-4504.herokuapp.com/
 
    * go to ` /routes/services/services.js `
    * find  `var dbUrl = "postgres://nitish:nitish@localhost:5432/universitynew"`
-   * change abovee line to `var dbUrl = "postgres://[Username]:[Password]@localhost:5432/universitynew";`
+   * change above line to `var dbUrl = "postgres://[Username]:[Password]@localhost:5432/universitynew";`
    * username and password are your Postgres authentication parameters.
 
 ##Installation##
